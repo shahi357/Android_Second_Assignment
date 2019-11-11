@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SecondAssisgnment</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="religion">
+        <item>Hindu</item>
+        <item>Buddhist</item>
+        <item>Muslim</item>
+        <item>Kiratis</item>
+        <item>Christian</item>
+    </string-array>
+</resources>

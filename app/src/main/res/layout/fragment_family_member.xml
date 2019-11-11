@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="Details.FamilyMember">
+
+    <EditText
+        android:id="@+id/grandfathername"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/image"
+        android:layout_marginTop="20dp"
+        android:hint="GrandFatherName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/father"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/grandfathername"
+        android:layout_marginTop="10dp"
+        android:hint="Father's Name"
+        android:textAlignment="center" />
+
+    <EditText android:layout_marginLeft="100dp"
+        android:id="@+id/mother"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/grandfathername"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/father"
+        android:hint="Mother's Name"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/brother"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/father"
+        android:layout_marginTop="10dp"
+        android:hint="Brother's Name"
+        android:textAlignment="center" />
+
+    <EditText android:layout_marginLeft="100dp"
+        android:id="@+id/sister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mother"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/father"
+        android:hint="Sister's Name"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/member"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/brother"
+        android:layout_marginTop="10dp"
+        android:hint="Family Member's"
+        android:textAlignment="center" />
+
+
+    <TextView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgProfile"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="10dp"
+        android:text="Images.0" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_family" />
+
+</RelativeLayout>
